@@ -1,0 +1,136 @@
+{
+  "skillsection": [
+    {
+      "name": "Programmiersprachen",
+      "attributes": [
+        {
+          "skill": "Javascript",
+          "active": true
+        },
+        {
+          "skill": "Typescript",
+          "active": true
+        },
+        {
+          "skill": "HTML",
+          "active": true
+        },
+        {
+          "skill": "CSS",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Frameworks und Libraries",
+      "attributes": [
+        {
+          "skill": "Angular 8",
+          "active": true
+        },
+        {
+          "skill": "NgRx/RxJs",
+          "active": true
+        },
+        {
+          "skill": "Sass",
+          "active": true
+        },
+        {
+          "skill": "Protractor",
+          "active": true
+        },
+        {
+          "skill": "Jasmine",
+          "active": true
+        },
+        {
+          "skill": "Node.js",
+          "active": false
+        },
+        {
+          "skill": "Express",
+          "active": false
+        },
+        {
+          "skill": "Vue",
+          "active": false
+        },
+        {
+          "skill": "React",
+          "active": false
+        },
+        {
+          "skill": "three.js",
+          "active": false
+        },
+        {
+          "skill": "p5.js",
+          "active": false
+        }
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "attributes": [
+        {
+          "skill": "Sonatype Nexus",
+          "active": false
+        },
+        {
+          "skill": "Sonatype Nexus",
+          "active": false
+        },
+        {
+          "skill": "Jenkins",
+          "active": false
+        },
+        {
+          "skill": "Git",
+          "active": true
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "attributes": [
+        {
+          "skill": "Sketch",
+          "active": true
+        },
+        {
+          "skill": "Figma",
+          "active": true
+        },
+        {
+          "skill": "Zeplin",
+          "active": true
+        },
+        {
+          "skill": "Lightroom",
+          "active": true
+        },
+        {
+          "skill": "Premiere Pro",
+          "active": true
+        },
+        {
+          "skill": "Indesign",
+          "active": false
+        },
+        {
+          "skill": "Illustrator",
+          "active": false
+        },
+        {
+          "skill": "After Effects",
+          "active": false
+        },
+        {
+          "skill": "Slack",
+          "active": true
+        }
+      ]
+    }
+  ]
+}

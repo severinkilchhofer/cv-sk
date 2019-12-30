@@ -1,11 +1,8 @@
 <script>
-    import data from './data.json'
+    import data from './paragraphdata.json'
+
     export let paragraph;
-
     const sectionName = data.paragraphs.find(p => p.name === paragraph);
-    console.log(sectionName);
-
-
 </script>
 
 <section>

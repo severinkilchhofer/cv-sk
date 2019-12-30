@@ -1,0 +1,123 @@
+{
+  "paragraphs": [
+    {
+      "name": "Steckbrief",
+      "attributes": [
+        {
+          "title": "Name",
+          "value": "Severin Kilchhofer"
+        },
+        {
+          "title": "Mail",
+          "value": "severin(at)kilchhofer.ch"
+        },
+        {
+          "title": "Geburtsdatum",
+          "value": "13.04.1995"
+        },
+        {
+          "title": "Wohnort",
+          "value": "Zürich, Schweiz"
+        },
+        {
+          "title": "Webseite",
+          "value": "kilchhofer.ch"
+        }
+      ]
+    },
+    {
+      "name": "Erfahrung",
+      "attributes": [
+        {
+          "title": "August 2017 bis heute",
+          "value": "Zürcher Kantonalbank | Frontend Entwickler"
+        },
+        {
+          "title": "Juli 2015 bis Juli 2017",
+          "value": "Zürcher Kantonalbank | Fullstack Entwickler"
+        }
+      ]
+    },
+    {
+      "name": "Projekte",
+      "attributes": [
+        {
+          "title": "Februar 2019 bis heute",
+          "value": "Im aktuellen Projekt erstelle ich als Frontend Entwickler in einem Scrum Team ein Microfrontend, welches mittels Angular Elements als Web Component in eine bestehende Applikation eingebunden wird. Wir verwenden dazu Angular 8 mit RxJs und NgRx. Das momentane Scrum Team besteht aus sechs Entwicklern. Durch mein Studium als Interaction Designer bin ich im engen Austausch mit den Business Analysten, um eine hohe User Experience zu schaffen. Ich führte bereits mehrere Benutzertests erfolgreich durch."
+        },
+        {
+          "title": "Dezember 2016 bis Februar 2019",
+          "value": "Als Frontend Developer habe ich von Dezember 2016 bis Februar 2019 in einem Scrum Team mit sieben anderen Entwicklern an der Neuentwicklung einer Webapplikation gearbeitet, die eine bestehende Rich-Client Applikation abgelöst hat. Wir verwendeten dazu Angular 7 im Frontend, sowie Java 11, Spring Boot und Hibernate im Backend. Für die Kommunikation setzten wir auf RESTful Webservices und als Datenbank kam Oracle zum Einsatz. Zum Projekttracking wurde Jira verwendet."
+        },
+        {
+          "title": "August 2015 bis Dezember 2016",
+          "value": "Nach meinem Abschluss als Informatiker EFZ, durfte ich meinem Interesse folgen und als Fullstack Entwickler Fuss fassen. Ich leitete ein Lernenden Projekt, welches AngularJs als Frontend Framework verwendete. Diese Webapplikation war eine der ersten in der Bank, die auf diesem Technologiestack basierte."
+        }
+      ]
+    },
+    {
+      "name": "Projektunabhängige Aufgaben",
+      "attributes": [
+        {
+          "title": "Schulunsleiter",
+          "value": "Schulungen für Styleguide interner Applikationen geleitet"
+        },
+        {
+          "title": "Lernendenausbildung",
+          "value": "Ausbildung einer Auszubildenden im zweiten Lehrjahr"
+        },
+        {
+          "title": "Informatiktage 2018",
+          "value": "Entwicklung einer React Native App für die Informatiktage 2018"
+        }
+      ]
+    },
+    {
+      "name": "Aus -und Weiterbildung",
+      "attributes": [
+        {
+          "title": "August 2017 bis heute",
+          "value": "HF Interaction Design | Schule für Gestaltung Zürich"
+        },
+        {
+          "title": "August 2011 bis August 2015",
+          "value": "Zürcher Kantonalbank | Ausbildung Informatiker EFZ"
+        }
+      ]
+    },
+    {
+      "name": "Sprachen",
+      "attributes": [
+        {
+          "title": "Deutsch",
+          "value": "Muttersprache"
+        },
+        {
+          "title": "Englisch",
+          "value": "Cambridge First Certificate in English"
+        }
+      ]
+    },
+    {
+      "name": "Interessen",
+      "attributes": [
+        {
+          "title": "Running",
+          "value": "10km und Halbmarathon"
+        },
+        {
+          "title": "Klettern",
+          "value": "Sportklettern und Mehrseillängen"
+        },
+        {
+          "title": "Unihockey",
+          "value": "Plauschteam Montag Abend"
+        },
+        {
+          "title": "Ski",
+          "value": "Skifahren und Skitouren"
+        }
+      ]
+    }
+  ]
+}

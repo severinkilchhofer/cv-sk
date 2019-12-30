@@ -1,17 +1,54 @@
 <script>
     import Header from './Header.svelte'
     import Paragraph from './Paragraph.svelte'
-
-</script>
+    import Skill from './Skill.svelte'</script>
 
 <main>
     <div class="container">
         <Header/>
+
         <div class="row">
             <Paragraph paragraph="Steckbrief"/>
         </div>
+
         <div class="row">
             <Paragraph paragraph="Erfahrung"/>
+        </div>
+
+        <div class="row">
+            <Skill skillSection="Programmiersprachen"/>
+        </div>
+
+        <div class="row">
+            <Skill skillSection="Frameworks und Libraries"/>
+        </div>
+
+        <div class="row">
+            <Skill skillSection="CI/CD"/>
+        </div>
+
+        <div class="row">
+            <Skill skillSection="Tools"/>
+        </div>
+
+        <div class="row">
+            <Paragraph paragraph="Projekte"/>
+        </div>
+
+        <div class="row">
+            <Paragraph paragraph="Projektunabhängige Aufgaben"/>
+        </div>
+
+        <div class="row">
+            <Paragraph paragraph="Aus -und Weiterbildung"/>
+        </div>
+
+        <div class="row">
+            <Paragraph paragraph="Sprachen"/>
+        </div>
+
+        <div class="row">
+            <Paragraph paragraph="Interessen"/>
         </div>
 
     </div>
