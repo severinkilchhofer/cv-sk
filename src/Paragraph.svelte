@@ -40,4 +40,10 @@
         font-weight: 500;
         color: $blue;
     }
+
+    @media (max-width: 500px) {
+        .row:not(:first-child) {
+            padding-bottom: 1.3em;
+        }
+    }
 </style>

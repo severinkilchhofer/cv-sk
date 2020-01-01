@@ -38,4 +38,5 @@
         height: 0.6em;
         background-color: #3A64B6;
     }
+
 </style>

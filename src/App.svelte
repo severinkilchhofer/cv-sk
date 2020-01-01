@@ -29,17 +29,30 @@
     }
 
 
+    /* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
     :global(h1) {
         color: $black;
         font-size: 3em;
         font-weight: 700;
     }
 
+    @media (max-width: 500px) {
+        :global(h1) {
+            font-size: 1.4em;
+        }
+        :global(h2) {
+            font-size: 1.2em;
+        }
+    }
+
+
+
+    /* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
     :global(:root) {
-
-
-        /* Grid
-        –––––––––––––––––––––––––––––––––––––––––––––––––– */
         .container {
             position: relative;
             width: 100%;
@@ -130,27 +143,6 @@
             }
 
 
-        }
-
-
-        /* Larger than mobile */
-        @media (min-width: 400px) {
-        }
-
-        /* Larger than phablet (also point when grid becomes active) */
-        @media (min-width: 550px) {
-        }
-
-        /* Larger than tablet */
-        @media (min-width: 750px) {
-        }
-
-        /* Larger than desktop */
-        @media (min-width: 1000px) {
-        }
-
-        /* Larger than Desktop HD */
-        @media (min-width: 1200px) {
         }
 
         /* Self Clearing Goodness */
