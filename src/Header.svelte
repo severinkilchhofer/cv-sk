@@ -12,7 +12,7 @@
     </div>
     <div class="row">
         <div class="eleven columns">
-            <p>Code und Design zu kombinieren war immmer mein grösster Wunsch. Mit meinem abgeschlossen Studium
+            <p>Code und Design zu kombinieren, war immmer mein grösster Wunsch. Mit meinem abgeschlossen Studium
                 Interaction
                 Design kann ich die tägliche Webentwicklung mit UX/UI Design verknüpfen. So ermögliche ich die
                 Entwicklung
