@@ -15,27 +15,29 @@
     {#each sectionName.attributes as { title, value }}
         <div class="row">
             <div class="three columns">
-                <p>{title}</p>
+                <p class="bold">{title}</p>
             </div>
             <div class="nine columns">
-                <p class="valueText">{value}</p>
+                <p>{value}</p>
             </div>
         </div>
     {/each}
 </section>
 
-
 <style type="text/scss">
     $blue: #3A64B6;
+
+    section {
+        margin-top: 2em;
+    }
 
     p {
         margin-block-start: 10px;
         margin-block-end: 10px;
-        color: $blue;
     }
 
-    .valueText {
-        font-weight: 100;
-        color: black;
+    .bold {
+        font-weight: 500;
+        color: $blue;
     }
 </style>

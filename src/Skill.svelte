@@ -28,6 +28,10 @@
     $blue: #3A64B6;
     $black: #000000;
 
+    section {
+        margin-top: 2em;
+    }
+
     .skill-card {
         width: 100%;
         height: 4.1875em;

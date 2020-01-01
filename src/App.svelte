@@ -6,51 +6,17 @@
 <main>
     <div class="container">
         <Header/>
-
-        <div class="row">
-            <Paragraph paragraph="Steckbrief"/>
-        </div>
-
-        <div class="row">
-            <Paragraph paragraph="Erfahrung"/>
-        </div>
-
-        <div class="row">
-            <Skill skillSection="Programmiersprachen"/>
-        </div>
-
-        <div class="row">
-            <Skill skillSection="Frameworks und Libraries"/>
-        </div>
-
-        <div class="row">
-            <Skill skillSection="CI/CD"/>
-        </div>
-
-        <div class="row">
-            <Skill skillSection="Tools"/>
-        </div>
-
-        <div class="row">
-            <Paragraph paragraph="Projekte"/>
-        </div>
-
-        <div class="row">
-            <Paragraph paragraph="Projektunabhängige Aufgaben"/>
-        </div>
-
-        <div class="row">
-            <Paragraph paragraph="Aus -und Weiterbildung"/>
-        </div>
-
-        <div class="row">
-            <Paragraph paragraph="Sprachen"/>
-        </div>
-
-        <div class="row">
-            <Paragraph paragraph="Interessen"/>
-        </div>
-
+        <Paragraph paragraph="Steckbrief"/>
+        <Paragraph paragraph="Erfahrung"/>
+        <Skill skillSection="Programmiersprachen"/>
+        <Skill skillSection="Frameworks und Libraries"/>
+        <Skill skillSection="CI/CD"/>
+        <Skill skillSection="Tools"/>
+        <Paragraph paragraph="Projekte"/>
+        <Paragraph paragraph="Projektunabhängige Aufgaben"/>
+        <Paragraph paragraph="Aus -und Weiterbildung"/>
+        <Paragraph paragraph="Sprachen"/>
+        <Paragraph paragraph="Interessen"/>
     </div>
 </main>
 
@@ -60,7 +26,6 @@
 
     main {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
     }
 
 
@@ -186,6 +151,15 @@
 
         /* Larger than Desktop HD */
         @media (min-width: 1200px) {
+        }
+
+        /* Self Clearing Goodness */
+        .container:after,
+        .row:after,
+        .u-cf {
+            content: "";
+            display: table;
+            clear: both;
         }
 
 

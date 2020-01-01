@@ -74,6 +74,10 @@
       "name": "CI/CD",
       "attributes": [
         {
+          "skill": "Git",
+          "active": true
+        },
+        {
           "skill": "Sonatype Nexus",
           "active": false
         },
@@ -84,10 +88,6 @@
         {
           "skill": "Jenkins",
           "active": false
-        },
-        {
-          "skill": "Git",
-          "active": true
         }
       ]
     },
@@ -115,6 +115,10 @@
           "active": true
         },
         {
+          "skill": "Slack",
+          "active": true
+        },
+        {
           "skill": "Indesign",
           "active": false
         },
@@ -125,10 +129,6 @@
         {
           "skill": "After Effects",
           "active": false
-        },
-        {
-          "skill": "Slack",
-          "active": true
         }
       ]
     }
