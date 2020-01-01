@@ -14,7 +14,7 @@
         <Skill skillSection="Tools"/>
         <Paragraph paragraph="Projekte"/>
         <Paragraph paragraph="Projektunabhängige Aufgaben"/>
-        <Paragraph paragraph="Aus -und Weiterbildung"/>
+        <Paragraph paragraph="Aus- und Weiterbildung"/>
         <Paragraph paragraph="Sprachen"/>
         <Paragraph paragraph="Interessen"/>
     </div>
