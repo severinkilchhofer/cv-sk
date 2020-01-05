@@ -1,7 +1,8 @@
 <script>
     import Header from './Header.svelte'
     import Paragraph from './Paragraph.svelte'
-    import Skill from './Skill.svelte'</script>
+    import Skill from './Skill.svelte'
+    import Footer from './Footer.svelte'</script>
 
 <main>
     <div class="container">
@@ -17,6 +18,7 @@
         <Paragraph paragraph="Aus- und Weiterbildung"/>
         <Paragraph paragraph="Sprachen"/>
         <Paragraph paragraph="Interessen"/>
+        <Footer/>
     </div>
 </main>
 
@@ -24,18 +26,51 @@
 <style type="text/scss">
     $black: #000000;
 
-    main {
-        font-family: 'Montserrat', sans-serif;
+    /* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+    @font-face {
+        font-family: Circ-Black;
+        src: url(/assets/fonts/CircularStd-Black.woff2) format('woff2'),
+        url(/assets/fonts/CircularStd-Black.woff) format('woff'),
+        url(/assets/fonts/CircularStd-Black.ttf) format('ttf')
+    }
+
+    @font-face {
+        font-family: Circ-Bold;
+        src: url(/assets/fonts/CircularStd-Bold.woff2) format('woff2'),
+        url(/assets/fonts/CircularStd-Bold.woff) format('woff'),
+        url(/assets/fonts/CircularStd-Bold.ttf) format('ttf')
     }
 
 
-    /* Fonts
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+    @font-face {
+        font-family: Circ-Book;
+        src: url(/assets/fonts/CircularStd-Book.woff2) format('woff2'),
+        url(/assets/fonts/CircularStd-Book.woff) format('woff'),
+        url(/assets/fonts/CircularStd-Book.ttf) format('ttf')
+    }
+
+    @font-face {
+        font-family: Circ-Medium;
+        src: url(/assets/fonts/CircularStd-Medium.woff2) format('woff2'),
+        url(/assets/fonts/CircularStd-Medium.woff) format('woff'),
+        url(/assets/fonts/CircularStd-Medium.ttf) format('ttf')
+    }
+
+    main {
+        font-family: 'Circ-Book', sans-serif;
+    }
+
 
     :global(h1) {
         color: $black;
         font-size: 3em;
-        font-weight: 700;
+        font-family: 'Circ-Black', sans-serif;
+    }
+
+    :global(h2) {
+        font-family: 'Circ-Bold', sans-serif;
     }
 
     @media (max-width: 500px) {
@@ -46,7 +81,6 @@
             font-size: 1.2em;
         }
     }
-
 
 
     /* Grid

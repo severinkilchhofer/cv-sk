@@ -38,7 +38,7 @@
         border-radius: 4px;
         background-color: $black;
         color: white;
-        font-weight: 600;
+        font-family: 'Circ-Bold', sans-serif;
         text-align: center;
         vertical-align: middle;
         line-height: 4.1875em;
