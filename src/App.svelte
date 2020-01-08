@@ -2,7 +2,8 @@
     import Header from './Header.svelte'
     import Paragraph from './Paragraph.svelte'
     import Skill from './Skill.svelte'
-    import Footer from './Footer.svelte'</script>
+    import Footer from './Footer.svelte'
+    import Legend from './Legend.svelte'</script>
 
 <main>
     <div class="container">
@@ -13,6 +14,7 @@
         <Skill skillSection="Frameworks und Libraries"/>
         <Skill skillSection="CI/CD"/>
         <Skill skillSection="Tools"/>
+        <Legend/>
         <Paragraph paragraph="Projekte"/>
         <Paragraph paragraph="Projektunabhängige Aufgaben"/>
         <Paragraph paragraph="Aus- und Weiterbildung"/>
