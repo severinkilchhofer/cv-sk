@@ -9,7 +9,7 @@
 <div class="header-section">
     <div class="row {mobile ? '' : 'alignment'}">
         <div class="{mobile ? 'nine image-center' : 'three'} columns">
-            <img src="assets/img/header-image.svg" alt="Foto Severin Kilchhofer">
+            <img src="assets/img/header-image.png" alt="Foto Severin Kilchhofer">
         </div>
         <div class="{mobile ? 'three' : 'nine'} columns">
             <h1>Hallo,<br>
