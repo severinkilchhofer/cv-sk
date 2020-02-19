@@ -49,6 +49,10 @@
           "active": false
         },
         {
+          "skill": "Svelte",
+          "active": false
+        },
+        {
           "skill": "Express",
           "active": false
         },
@@ -76,10 +80,6 @@
         {
           "skill": "Git",
           "active": true
-        },
-        {
-          "skill": "Sonatype Nexus",
-          "active": false
         },
         {
           "skill": "Sonatype Nexus",
